@@ -2,9 +2,10 @@
 This repository containes scripts and data that used for characterizing respiratory microbiome of the manuscript "Comprehensive catalogs for microbial genes and metagenome-assembled genomes of the swine lower respiratory tract microbiome elucidate the relationship of microbial species with lung lesions".
 
 ## Catalog_construct.sh
-Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome
+Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
+
 <b>Requirements:</b>
-* fastp (tested v0.20.1)     * GTDB-Tk (tested v1.7.0)
+* fastp (tested v0.20.1)
 * Bowtie2 (tested v2.3.5.1)
 * BWA MEM2 (tested v2.2.1) 
 * SAMtools (tested v1.7)
@@ -22,5 +23,5 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome
 * metaSPAdes (tested v3.13.0)
 * VAMB (tested v3.0.2)
 * dRep (tested v3.2.2)
-
+* GTDB-Tk (tested v1.7.0)
 
