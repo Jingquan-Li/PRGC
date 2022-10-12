@@ -86,7 +86,7 @@ metawrap bin_refinement -o ${binning}/BIN_REFINEMENT -t 12 -A INITIAL_BINNING/me
 
 #Re-assemble the consolidated bin set with the Reassemble_bins module
 metawrap reassemble_bins -o BIN_REASSEMBLY \
-	 -1 ${FilterData}/${Sample}_1.fastq \
+	-1 ${FilterData}/${Sample}_1.fastq \
 	-2 ${FilterData}/${Sample}_2.fastq \
 	-t 20 \
 	-m 60 \
@@ -97,11 +97,15 @@ metawrap reassemble_bins -o BIN_REASSEMBLY \
 ###Co-binnng
 cd cd ${binning}  && mkdir All/
 cd All/
+#using metaba2 and maxbin2 tools in metawrap
 metawrap binning -o INITIAL_BINNING -t 36 -a ${Contigs}/All.fa   -l 500 --metabat2 --maxbin2  --concoct \
-	--universal  ${FilterData}/All*fastq
-
+--universal  ${FilterData}/All*fastq
+###binning using vamb
+vamb --outdir vamb_bins --fasta INITIAL_BINNING/work_files/assembly.fa --jgi INITIAL_BINNING/work_files/metabat_depth.txt \
+        -o k --minfasta 200000 -m 500
+#bins refinement
 metawrap bin_refinement -o BIN_REFINEMENT -t 12 -A INITIAL_BINNING/metabat2_bins/   -B INITIAL_BINNING/maxbin2_bins \
-       	-C INITIAL_BINNING/concoct_bins/ -c 50  -x  10 --quick
+       	-C INITIAL_BINNING/vamb_bins/ -c 50  -x  10 --quick
 
 
 metawrap reassemble_bins -o BIN_REASSEMBLY \
