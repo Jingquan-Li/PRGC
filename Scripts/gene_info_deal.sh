@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cmd：bash Sample500_gene_info_deal.sh test.faa
+#cmd：bash Sample_gene_info_deal.sh test.faa
 set -e
 faa=$1
 
