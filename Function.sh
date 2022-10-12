@@ -4,6 +4,7 @@ set -e
 echo "Job Start at `date`"
 Database=~/db/
 function=~/meta/03_gene_catalog
+INPUT=~/meta/03_gene_catalog/total.protein.faa.90
 cd ${function}
 mkdir eggNOG KEGG dbCAN2 VFDB
 ###eggNOG
@@ -11,9 +12,8 @@ mkdir eggNOG KEGG dbCAN2 VFDB
 cd ${Database}/eggnog
 diamond makedb --in eggnog.db  -d eggnog_proteins
 
-INPUT=~/meta/03_gene_catalog/total.protein.faa.90
-
 cd ${function}/
+#EggNOG mapper
 time emapper.py -m diamond --no_annot --no_file_comments --data_dir ${Database}/eggnog --evalue 1e-5 \
 	      --cpu 12 -i ${INPUT} -o eggNOG/PRGC90 --override
 time emapper.py --annotate_hits_table  eggNOG/PRGC90.emapper.seed_orthologs --no_file_comments \
@@ -40,8 +40,5 @@ diamond blastp -d ${Database}/kobas-3.0/seq_pep/ko.pep.fasta.dmnd -q ${INPUT} -e
 
 annotate.py  -i PRGC.keggout.dmnd -t blastout:tab -s ko -k  ${Database}/kobas-3.0 -o PRGC90.kegg.anno.txt -n 12
 
-
 #get time end the job
 echo "Job finished at:" `date`
-
-
