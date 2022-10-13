@@ -28,5 +28,5 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 ## Abundance.sh
 Codes used to calculate the abundance of genes and metagenome-assembled genomes.
 
-##Function.sh
+## Function.sh
 Script to perform functional annotation.
