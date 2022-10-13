@@ -14,7 +14,7 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [CD-HIT](https://github.com/weizhongli/cdhit) (tested v4.8.1)
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
 * [BASTA](https://github.com/timkahlke/BASTA) (tested v1.3)
-* [blast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast) (tested v2.12.0)
+* [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) (tested v2.12.0)
 * [MetaBAT2](https://bitbucket.org/berkeleylab/metabat) (tested v2.15)
 * [Maxbin2](http://sourceforge.net/projects/maxbin) (tested v2.2.7)
 * [CONCOCT](https://github.com/BinPro/CONCOCT) (tested v0.5.0)
