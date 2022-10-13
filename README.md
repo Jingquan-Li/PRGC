@@ -24,3 +24,9 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [VAMB](https://github.com/RasmussenLab/vamb) (tested v3.0.2)
 * [dRep](https://github.com/MrOlm/drep) (tested v3.2.2)
 * [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) (tested v1.7.0)
+
+## Abundance.sh
+Codes used to calculate the abundance of genes and metagenome-assembled genomes.
+
+##Function.sh
+Script to perform functional annotation.
