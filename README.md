@@ -26,6 +26,7 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 
 ## Abundance.sh
 Codes used to calculate the abundance of genes and metagenome-assembled genomes.
+<b>Requirements:</b>
 * [BWA MEM2](https://github.com/lh3/bwa) (tested v2.2.1) 
 * [SAMtools](https://github.com/samtools/samtools) (tested v1.7)
 * [FeatureCounts](http://bioinf.wehi.edu.au/featureCounts) (tested v2.0.1)
