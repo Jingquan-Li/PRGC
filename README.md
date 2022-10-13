@@ -38,3 +38,12 @@ Script to perform functional annotation.<br>
 * [HMMER](https://github.com/guyz/HMM) (tested v3.1b2)
 * [KOBAS](http://kobas.cbi.pku.edu.cn/kobas3) (tested v3.0.3)
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
+
+## Other analysis and plotting scripts
+* `gene_Freq_Abundance_Counts.py`:Calcultaed the gene presence in 745 tested samples. 
+* `blast_best.py`:Extracted the best blast results of VFDB alignment.
+
+<b>R/</b>
+* `sequence_depth_hist.R`: The histogram of sequencing depth in raw data and clean data.
+* `gene_accumulation.R`: Plot the gene accumulation curve in the PRGC90.
+* `gene_range_stats.r`: Statistics of the genes relative abundance in different ranges.
