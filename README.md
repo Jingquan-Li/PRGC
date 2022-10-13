@@ -5,7 +5,7 @@ This repository containes scripts and data that used for characterizing respirat
 Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 
 <b>Requirements:</b>
-* .[fastp]. (tested v0.20.1) (https://github.com/OpenGene/fastp)
+* .[fastp].(https://github.com/OpenGene/fastp) (tested v0.20.1)
 * Bowtie2 (tested v2.3.5.1)
 * BWA MEM2 (tested v2.2.1) 
 * SAMtools (tested v1.7)
