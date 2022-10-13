@@ -25,14 +25,14 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) (tested v1.7.0)
 
 ## Abundance.sh
-Codes used to calculate the abundance of genes and metagenome-assembled genomes.</b>
+Codes used to calculate the abundance of genes and metagenome-assembled genomes.<b>
 <b>Requirements:</b>
 * [BWA MEM2](https://github.com/lh3/bwa) (tested v2.2.1) 
 * [SAMtools](https://github.com/samtools/samtools) (tested v1.7)
 * [FeatureCounts](http://bioinf.wehi.edu.au/featureCounts) (tested v2.0.1)
 * [metaWRAP](https://github.com/bxlab/metaWRAP) (tested v1.3.2)
 ## Function.sh
-Script to perform functional annotation.</b>
+Script to perform functional annotation.<b>
 <b>Requirements:</b>
 * [EggNOG mapper](https://github.com/jhcepas/eggnog-mapper) (tested v2.6.1)	
 * [HMMER](https://github.com/guyz/HMM) (tested v3.1b2)
