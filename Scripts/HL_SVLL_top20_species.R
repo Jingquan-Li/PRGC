@@ -2,7 +2,7 @@ library(reshape2)
 library(ggplot2)
 spec_hl <- read.table("hl_core_species.tab" ,header=F,row.names=1, sep="\t")
 spec_svll <- read.table("svll_core_species.tab" ,header=F,row.names=1, sep="\t")
-###otained top20 species in the HL
+###obtained top20 species in the HL
 spec_hl_mean <- apply(spec_hl,1 , mean)
 spec_hl_top20<- spec_hl[order(spec_hl_mean,decreasing = T)[1:20],]
 spec_hl_top20_log <- log10(spec_hl_top20)
