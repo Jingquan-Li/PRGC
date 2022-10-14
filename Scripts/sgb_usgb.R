@@ -20,12 +20,12 @@ p1 <- ggplot(SGB.data.melt[which(SGB.data.melt$variable=="uSGB_percent"),],aes(x
         panel.border = element_blank(),
         #axis.text.x = element_text(angle = 52, hjust = 1), 
         #axis.text.x = element_text(colour="black",angle = 90, hjust = 0,vjust = 1),
-		axis.text.x = element_blank(),
+	axis.text.x = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_blank(),
         legend.title = element_blank(),
-		axis.title.y = element_text(size = 10,color="black"),
+	axis.title.y = element_text(size = 10,color="black"),
         legend.position = "none")
 
 p2 <- ggplot(SGB.data.melt[which(SGB.data.melt$variable=="SGB"),],aes(x=Phylum,y=value,fill=Phylum))+
@@ -42,7 +42,7 @@ p2 <- ggplot(SGB.data.melt[which(SGB.data.melt$variable=="SGB"),],aes(x=Phylum,y
         axis.text.y = element_blank(),
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_blank(),
-		axis.title.y = element_text(size = 10,color="black"),
+	axis.title.y = element_text(size = 10,color="black"),
         legend.title = element_blank(),
         legend.position = "none")
 grid.arrange(p1,p2, nrow = 2)
