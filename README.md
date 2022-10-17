@@ -42,7 +42,7 @@ Script to perform functional annotation.<br>
 ## Other analysis and plotting scripts
 * `gene_Freq_Abundance_Counts.py`:Calcultaed the gene presence in 745 tested samples. 
 * `blast_best.py`:Extracted the best blast results of VFDB alignment.
-* `vfg.freq.absent.sh`. Find the presence or absence of virulence factor genes in the **Mycoplasma hyopneumoniae** genomes.
+* `vfg.freq.absent.sh`. Find the presence or absence of virulence factor genes in the *Mycoplasma hyopneumoniae* genomes.
 
 <b>R/</b>
 * `sequence_depth_hist.R`: The histogram of sequencing depth in raw data and clean data.
@@ -57,6 +57,6 @@ Script to perform functional annotation.<br>
 * `pan_core_cog_pie.R` COG annotaion of the pan-genes and core-genes.
 * `mds_ani.R`:  Multidimensional Scaling analysis based  on the average nucleotide identity.
 * `pan_core_top20ko_bar.R`: The 20 KEGG pathways with the largest number of annotated genes in pan-genes and core-genes.
-* `function_clade_compare.R`: Comparison of the numbers of annotated functional genes in two **Mycoplasma hyopneumoniae** clades.
-* `vfg_heatmap.R`: Distribution of virulence factor genes in 285 **Mycoplasma hyopneumoniae** genomes.
+* `function_clade_compare.R`: Comparison of the numbers of annotated functional genes in two *Mycoplasma hyopneumoniae* clades.
+* `vfg_heatmap.R`: Distribution of virulence factor genes in 285 *Mycoplasma hyopneumoniae* genomes.
 * `diversity_box.R`: Alpha and beta diversity of lung microbiome in the F7 population of four lung-lesion groups.
