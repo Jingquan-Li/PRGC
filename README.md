@@ -38,6 +38,7 @@ Script to perform functional annotation.<br>
 * [HMMER](https://github.com/guyz/HMM) (tested v3.1b2)
 * [KOBAS](http://kobas.cbi.pku.edu.cn/kobas3) (tested v3.0.3)
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
+* [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) (tested v2.12.0)
 
 ## Other analysis and plotting scripts
 * `gene_Freq_Abundance_Counts.py`:Calcultaed the gene presence in 745 tested samples. 
@@ -59,4 +60,4 @@ Script to perform functional annotation.<br>
 * `pan_core_top20ko_bar.R`: The 20 KEGG pathways with the largest number of annotated genes in pan-genes and core-genes.
 * `function_clade_compare.R`: Comparison of the numbers of annotated functional genes in two *Mycoplasma hyopneumoniae* clades.
 * `vfg_heatmap.R`: Distribution of virulence factor genes in 285 *Mycoplasma hyopneumoniae* genomes.
-* `diversity_box.R`: Alpha and beta diversity of lung microbiome in the F7 population of four lung-lesion groups.
+* `diversity_box.R`: Alpha and beta diversity of lung microbiome in the F7 population.
