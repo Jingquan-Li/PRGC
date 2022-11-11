@@ -98,7 +98,7 @@ metawrap reassemble_bins -o BIN_REASSEMBLY \
 cd cd ${binning}  && mkdir All/
 cd All/
 #using metaba2 and maxbin2 tools in metawrap
-metawrap binning -o INITIAL_BINNING -t 36 -a ${Contigs}/All.fa   -l 500 --metabat2 --maxbin2  --concoct \
+metawrap binning -o INITIAL_BINNING -t 36 -a ${Contigs}/All.fa   -l 500 --metabat2 --maxbin2   \
 --universal  ${FilterData}/All*fastq
 ###binning using vamb
 vamb --outdir vamb_bins --fasta INITIAL_BINNING/work_files/assembly.fa --jgi INITIAL_BINNING/work_files/metabat_depth.txt \
