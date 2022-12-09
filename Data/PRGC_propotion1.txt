@@ -1,0 +1,4 @@
+Item	PRGC100	PRGC90	PRGC50
+Predicted gene (unique)	13171977	10337194	5823149
+Known taxa (unique)	3008	2990	2625
+Known protein (unique)	7616287	5793252	2808677
