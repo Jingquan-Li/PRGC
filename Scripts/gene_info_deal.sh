@@ -21,6 +21,7 @@ echo "MEM:$mem"
 #workdir=$( date +%s%20N | md5sum | awk '{print $1}' )
 #mkdir $workdir 
 
+
 python - $faa << EOF
 import sys
 import os
