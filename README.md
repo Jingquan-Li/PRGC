@@ -49,7 +49,7 @@ Script to perform functional annotation.<br>
 * `vfg.freq.absent.sh`: Find the presence or absence of virulence factor genes in the *Mycoplasma hyopneumoniae* genomes.
 * `gene_info_deal.sh`: Statistic for gene information.
 
-<b>R/</b>
+<b>R Scripts/</b>
 * `sequence_depth_hist.R`: The histogram of sequencing depth in raw data and clean data.
 * `gene_accumulation.R`: Plot the gene accumulation curve in the PRGC90.
 * `gene_range_stats.r`: Statistics of the genes relative abundance in different ranges.
