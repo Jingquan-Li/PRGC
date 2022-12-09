@@ -1,6 +1,6 @@
 taxa <- read.table("taxa_abundance_f7.tab" ,header=T,row.names=1,sep="\t",check.names=F )
 meta <- read.csv("Lung_site_group.csv",check.names = F)
-F7_Lung <- meta[which(F7_Lung$Site=="Lung" & F7_Lung$Population=="F7"),]
+F7_Lung <- meta[which(meta$Site=="Lung" & meta$Population=="F7"),]
 F7_Lung$Grade <- factor(F7_Lung$Grade,levels = c("HL","SLL","MLL","SVLL"))
 library(vegan)
 taxa <- t(taxa)
