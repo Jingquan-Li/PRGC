@@ -40,10 +40,14 @@ Script to perform functional annotation.<br>
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
 * [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) (tested v2.12.0)
 
+## Data/
+* Associated data for statistical analysis and visualization.
+
 ## Other analysis and plotting scripts
 * `gene_Freq_Abundance_Counts.py`:Calcultaed the gene presence in 745 tested samples. 
 * `blast_best.py`:Extracted the best blast results of VFDB alignment.
-* `vfg.freq.absent.sh`. Find the presence or absence of virulence factor genes in the *Mycoplasma hyopneumoniae* genomes.
+* `vfg.freq.absent.sh`: Find the presence or absence of virulence factor genes in the *Mycoplasma hyopneumoniae* genomes.
+* `gene_info_deal.sh`: Statistic for gene information.
 
 <b>R/</b>
 * `sequence_depth_hist.R`: The histogram of sequencing depth in raw data and clean data.
