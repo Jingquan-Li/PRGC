@@ -65,3 +65,4 @@ Script to perform functional annotation.<br>
 * `function_clade_compare.R`: Comparison of the numbers of annotated functional genes in two *Mycoplasma hyopneumoniae* clades.
 * `vfg_heatmap.R`: Distribution of virulence factor genes in 285 *Mycoplasma hyopneumoniae* genomes.
 * `diversity_box.R`: Alpha and beta diversity of lung microbiome in the F7 population.
+* `Kingdom.R`: Average species composition of virus, fungi, and archaea kingdom and the proportion of different kingdom.
