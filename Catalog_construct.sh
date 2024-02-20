@@ -33,13 +33,13 @@ bedtools bamtofastq -i ${bowtire2_out}/${Sample}_bothEndsUnmapped_sorted.bam \
 ##############################Part2: de-novo assembly  ############################################
 ###Single sample assembly using megahit in the metawrap pipeline
 Contigs=~/meta/02_assembly/Contigs
-metawrap assembly   -1 ${FilterData}/${Sample}_1.fastq   -2 ${FilterData}/${Sample}_1.fastq  -t 36 -m 20  -l  500  -o  ${Sample}_megahit
+metawrap assembly   -1 ${FilterData}/${Sample}_1.fastq   -2 ${FilterData}/${Sample}_2.fastq  -t 36 -m 20  -l  500  -o  ${Sample}_megahit
 cp ${Sample}_megahit/final_assembly.fasta   ${Contigs}/${Sample}.fa
 ######Co-assembly with all the tested samples
 cat ${filter}/*_1.fastq >All_1.fastq
 cat ${filter}/*_2.fastq >All_2.fastq
 ###need large memory
-metawrap assembly   -1 All_1.fastq   -2 All_1.fastq  -t 36 -m 500  -l  500  -o  ${Sample}_megahit
+metawrap assembly   -1 All_1.fastq   -2 All_2.fastq  -t 36 -m 500  -l  500  -o  ${Sample}_megahit
 cp ${Sample}_megahit/final_assembly.fasta   ${Contigs}/${Sample}.fa
 ############################Part3: gene catalog reconstruction ####################################
 ###gene prediction using Prodigal
@@ -90,7 +90,7 @@ metawrap reassemble_bins -o BIN_REASSEMBLY \
 	-2 ${FilterData}/${Sample}_2.fastq \
 	-t 20 \
 	-m 60 \
-	-c 50\
+	-c 50 \
 	-x 10 \
 	-b BIN_REFINEMENT/metawrap_50_10_bins
 
