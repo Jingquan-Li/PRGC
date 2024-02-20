@@ -10,7 +10,7 @@ specnumber <- specnumber(taxa,MARGIN=1)
 group <- F7_Lung$Population
 sample_id <- rownames(taxa)
 data_group <- data.frame(sample_id, group)
-shannon <- data.frame(shannon_NR_genus)
+shannon <- data.frame(shannon)
 shannon_group<- data.frame(shannon,specnumber,group)
 head(shannon_group)
 group <- F7_Lung$Grade
