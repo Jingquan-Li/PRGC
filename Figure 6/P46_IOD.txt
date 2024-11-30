@@ -1,0 +1,10 @@
+ID	Relative Integral Optical Density	Group
+NC-1	0.81	NC
+NC-2	0.57	NC
+NC-3	1.62	NC
+168L-1	6.28	168L
+168L-2	5.49	168L
+168L-3	4.99	168L
+LH-1	8.51	LH
+LH-2	5.55	LH
+LH-3	7.8	LH
