@@ -1,7 +1,7 @@
 # Comprehensive catalogs for microbial genes and metagenome-assembled genomes of the swine lower respiratory tract microbiome 
 This repository contains scripts and data that used for characterizing respiratory microbiome of the manuscript "Comprehensive catalogs for microbial genes and metagenome-assembled genomes of the swine lower respiratory tract microbiome elucidate the relationship of microbial species with lung lesions".
 
-## Catalog_construct.sh
+## Catalogs construction
 Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 
 <b>Requirements:</b>
@@ -24,14 +24,14 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [dRep](https://github.com/MrOlm/drep) (tested v3.2.2)
 * [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) (tested v1.7.0)
 
-## Abundance.sh
+## Abundance
 Codes used to calculate the abundance of genes and metagenome-assembled genomes.<br> 
 <b>Requirements:</b>
 * [BWA MEM2](https://github.com/lh3/bwa) (tested v2.2.1) 
 * [SAMtools](https://github.com/samtools/samtools) (tested v1.7)
 * [FeatureCounts](http://bioinf.wehi.edu.au/featureCounts) (tested v2.0.1)
 * [metaWRAP](https://github.com/bxlab/metaWRAP) (tested v1.3.2)
-## Function.sh
+## Function
 Script to perform functional annotation.<br> 
 <b>Requirements:</b>
 * [EggNOG mapper](https://github.com/jhcepas/eggnog-mapper) (tested v2.6.1)	
@@ -40,7 +40,7 @@ Script to perform functional annotation.<br>
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
 * [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) (tested v2.12.0)
 
-## Data/
+## Figure 1-6 and Sfigures/
 * Associated data for statistical analysis and visualization.
 
 ## Other analysis and plotting scripts
