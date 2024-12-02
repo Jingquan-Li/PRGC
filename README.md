@@ -47,5 +47,5 @@ Script to perform functional annotation.<br>
 ## Other analysis and plotting scripts
 * `gene_Freq_Abundance_Counts.py`:Calcultaed the gene presence in 745 tested samples. 
 * `blast_best.py`:Extracted the best blast results of VFDB alignment.
-* `vfg.freq.absent.sh`: Find the presence or absence of virulence factor genes in the *Mycoplasma hyopneumoniae* genomes.
+* `vfg.freq.absent.sh`: Find the presence or absence of virulence factor genes in the *Mesomycoplasma hyopneumoniae* genomes.
 * `gene_info_deal.sh`: Statistic for gene information.
