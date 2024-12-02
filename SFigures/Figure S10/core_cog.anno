@@ -1,0 +1,18 @@
+-	52		
+C	21	METABOLISM	Energy production and conversion 
+D	8	CELLULAR PROCESSES AND SIGNALING	Cell cycle control, cell division, chromosome partitioning 
+E	12	METABOLISM	Amino acid transport and metabolism 
+F	21	METABOLISM	Nucleotide transport and metabolism 
+G	31	METABOLISM	Carbohydrate transport and metabolism 
+H	10	METABOLISM	Coenzyme transport and metabolism 
+I	6	METABOLISM	Lipid transport and metabolism 
+J	93	INFORMATION STORAGE AND PROCESSING	Translation, ribosomal structure and biogenesis 
+K	13	INFORMATION STORAGE AND PROCESSING	Transcription 
+L	31	INFORMATION STORAGE AND PROCESSING	Replication, recombination and repair 
+M	5	CELLULAR PROCESSES AND SIGNALING	Cell wall/membrane/envelope biogenesis 
+O	7	CELLULAR PROCESSES AND SIGNALING	Posttranslational modification, protein turnover, chaperones 
+P	21	METABOLISM	Inorganic ion transport and metabolism 
+S	41	POORLY CHARACTERIZED	Function unknown 
+T	1	CELLULAR PROCESSES AND SIGNALING	Signal transduction mechanisms 
+U	9	CELLULAR PROCESSES AND SIGNALING	Intracellular trafficking, secretion, and vesicular transport 
+V	5	CELLULAR PROCESSES AND SIGNALING	Defense mechanisms 
