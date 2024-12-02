@@ -1,5 +1,5 @@
 # Comprehensive catalogs for microbial genes and metagenome-assembled genomes of the swine lower respiratory tract microbiome 
-This repository contains scripts and data that used for characterizing respiratory microbiome of the manuscript "Comprehensive catalogs for microbial genes and metagenome-assembled genomes of the swine lower respiratory tract microbiome elucidate the relationship of microbial species with lung lesions".
+This repository contains scripts and data that used for characterizing respiratory microbiome of the manuscript "Comprehensive lung microbial gene and genome catalogs reveal the mechanism survey of *Mesomycoplasma hyopneumoniae* strains causing pig lung lesions".
 
 ## Pipeline/
 ### Catalogs construction
