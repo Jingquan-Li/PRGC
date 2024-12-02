@@ -13,7 +13,7 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [prodigal](https://github.com/hyattpd/Prodigal) (tested v2.6.3)
 * [CD-HIT](https://github.com/weizhongli/cdhit) (tested v4.8.1)
 * [Diamond](https://github.com/bbuchfink/diamond) (tested v2.0.12.150)
-* [BASTA](https://github.com/timkahlke/BASTA) (tested v1.3)
+* [BASTA](https://github.com/timkahlke/BASTA) (tested v1.4.1)
 * [blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/) (tested v2.12.0)
 * [MetaBAT2](https://bitbucket.org/berkeleylab/metabat) (tested v2.15)
 * [Maxbin2](http://sourceforge.net/projects/maxbin) (tested v2.2.7)
@@ -23,7 +23,7 @@ Consruction of genes  and MAGs catalogs for pig lower respiratory microbiome.
 * [metaSPAdes](https://github.com/ablab/spades) (tested v3.13.0)
 * [VAMB](https://github.com/RasmussenLab/vamb) (tested v3.0.2)
 * [dRep](https://github.com/MrOlm/drep) (tested v3.2.2)
-* [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) (tested v1.7.0)
+* [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) (tested v2.1.0)
 
 ### Abundance
 Codes used to calculate the abundance of genes and metagenome-assembled genomes.<br> 
